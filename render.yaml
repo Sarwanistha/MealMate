@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mealmate
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: MEALMATE_SECRET
+        generateValue: true
