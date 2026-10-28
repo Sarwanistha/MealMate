@@ -177,7 +177,7 @@ export default function Hero({ value, onChange, autoFocus, listings = [] }) {
               ref={input}
               value={value}
               onChange={(e) => onChange(e.target.value)}
-              placeholder="Search food, sellers…"
+              placeholder="Search food…"
               className="h-14 w-full rounded-2xl border-0 bg-card pr-36 pl-12 text-base font-medium text-foreground shadow-hover outline-none placeholder:text-muted-foreground focus-visible:ring-4 focus-visible:ring-white/50"
             />
             {value && (
